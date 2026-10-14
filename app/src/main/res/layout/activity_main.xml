@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="实验三：Android 界面组件"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务1：ListView 动物列表" />
+
+    <Button
+        android:id="@+id/btnTask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务2：自定义 AlertDialog" />
+
+    <Button
+        android:id="@+id/btnTask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务3：XML 定义菜单" />
+
+    <Button
+        android:id="@+id/btnTask4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务4：ActionMode 菜单" />
+
+    <Button
+        android:id="@+id/btnTask5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务5：RecyclerView 列表" />
+
+</LinearLayout>
